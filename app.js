@@ -53,7 +53,7 @@ document.getElementById('downloadBtn').addEventListener('click', function () {
   let data = '';
   dateTimes.forEach(({ entry, exit }) => {
       data += `\t${employe}\t${entry}\t1\t0\t0\t0\n`; // Entrada
-      data += `\t${employe}\t${exit}\t1\t0\t1\t0\n`; // Salida
+      data += `\t${employe}\t${exit}\t1\t1\t0\t0\n`; // Salida
   });
 
   const blob = new Blob([data], { type: 'text/plain' });
