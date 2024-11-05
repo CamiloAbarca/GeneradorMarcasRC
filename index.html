@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="form-container">
+    <form>
+      <div class="mb-3">
+        <label for="employe" class="form-label">Empleado</label>
+        <input type="number" class="form-control" id="employe">
+      </div>
+
+      <div class="mb-3">
+        <label for="year" class="form-label">Año</label>
+        <input type="number" class="form-control" id="year">
+      </div>
+
+      <div class="mb-3">
+        <label for="month" class="form-label">Mes</label>
+        <input type="number" class="form-control" id="month">
+      </div>
+
+      <div class="mb-3">
+        <label for="startThreshold" class="form-label">Umbral Inicio (entrada) (ej: 13:00 = 13)</label>
+        <input type="number" class="form-control" id="startThreshold">
+      </div>
+
+      <div class="mb-3">
+        <label for="endThreshold" class="form-label">Umbral Termino (entrada) (ej: 14:00 = 14)</label>
+        <input type="number" class="form-control" id="endThreshold">
+      </div>
+
+      <div class="mb-3">
+        <label for="startThresholdExit" class="form-label">Umbral Inicio (salida) (ej: 18:00 = 18)</label>
+        <input type="number" class="form-control" id="startThresholdExit">
+      </div>
+
+      <div class="mb-3">
+        <label for="endThresholdExit" class="form-label">Umbral Termino (salida) (ej: 19:00 = 19)</label>
+        <input type="number" class="form-control" id="endThresholdExit">
+      </div>
+
+      <button id="downloadBtn" class="btn btn-primary">Descargar archivo</button>
+    </form>
+  </div>
+</body>
+<script src="app.js"></script>
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
